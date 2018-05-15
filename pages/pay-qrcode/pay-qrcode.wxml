@@ -1,0 +1,21 @@
+<!--pages/pay-qrcode/pay-qrcode.wxml-->
+  <view class="explain" bindtap='bindExplain'>付款流程说明</view>
+  <view class="cashier-desk">
+    <image mode='aspectFit' src="../../imgs/cashier-desk.png"></image>
+  </view>
+  <view class="time">
+    <text>请勿重复付款，付款有效期： <text>{{minute}}:{{second}}</text></text>
+    <progress percent="{{progressVal}}" color="#8DEEEE"></progress>
+  </view> 
+  <view class='price'>
+    <view><text>请注意：按正确金额付款，才能支付成功！</text></view>
+    <view>正确金额：<text>{{price}}</text> 元</view>
+  </view>
+  <view class="qrcode">
+    <image class="qrcode-bg" src="../../imgs/bg.jpg" style="opacity:0.8"></image>
+    <image class="qrcode-image" bindtap='previewImage' mode='widthFix' src="{{qRCodeUrl}}">
+    </image>
+    <text class="qrcode-text1">↑<text class="span">请点击预览并保存</text>↑</text>
+    <text class="qrcode-text2">支付宝付款码</text>
+  </view>
+

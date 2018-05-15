@@ -1,0 +1,80 @@
+/* pages/pay-qrcode/pay-qrcode.wxss */
+.explain{
+  text-decoration: underline;
+  font-size: 30rpx;
+  color: gray;
+  position: absolute;
+  top:40rpx;
+  right: 40rpx;
+}
+.cashier-desk{
+  text-align: center;
+  margin: 30rpx auto;
+  width:70%;
+  height: 250rpx;
+}
+.cashier-desk image{
+  width:70%;
+  height: 250rpx;
+}
+.time{
+  text-align: center;
+}
+.time text text{
+  color:red;
+}
+progress{
+  margin: 20rpx auto;
+  width:80%;
+}
+.price{
+  margin-top: 30rpx;
+  text-align: center;
+  line-height: 60rpx;
+}
+.price text{
+  color: red;
+}
+.qrcode-bg{
+  position: absolute;
+  top: 0rpx;
+  width:100%;
+  height: 100%;
+}
+.qrcode{
+  position: absolute;
+  bottom: 0rpx;
+  width: 100%;
+  height: 400rpx;
+  /* background: linear-gradient(to bottom, silver, white); */
+  box-shadow: 0rpx 0rpx 20rpx silver;
+}
+.qrcode-image{
+  position: absolute;
+  top:-220rpx;
+  left: 180rpx;
+  width: 400rpx;
+  border-radius: 10rpx 10rpx 10rpx;
+  box-shadow: 0rpx 0rpx 20rpx silver;
+}
+.qrcode-text1{
+  font-size: 80rpx;
+  color: black;
+  position: absolute;
+  top: 185rpx;
+  left: 145rpx;
+  text-shadow:  0rpx 0rpx 20rpx black;
+}
+.span{
+  font-size: 40rpx;
+  position: relative;
+  top: -15rpx;
+}
+.qrcode-text2{
+  font-size: 80rpx;
+  color: white;
+  position: absolute;
+  top: 280rpx;
+  left: 140rpx;
+  text-shadow:  0rpx 0rpx 20rpx white;
+}
